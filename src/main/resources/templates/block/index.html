@@ -110,8 +110,8 @@
                       <div class="ui teal segment">
                           <div class="ui teal basic left pointing label m-margin-tb-tiny" th:each="tag,tagStart:${tags}"  th:unless="${tagStart.count}>5">
                               <a href="#" th:href="@{/ordinary/tag/{id}(id=${tag.id})}" class="item">
-                                  <span th:text="${tag.name}">方法导论</span>
-                                  <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div>
+                                  <span th:text="${tag.name}">方法导论</span>&nbsp;&nbsp;
+                                  <pan class="detail" th:text="${#arrays.length(tag.blogs)}">23</pan>
                               </a>
                           </div>
                       </div>

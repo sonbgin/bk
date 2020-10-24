@@ -32,6 +32,7 @@ public class ShiroSecurityConfig {
         filterChainMap.put("/img/**","anon");
         filterChainMap.put("/favicon.ico","anon");
         filterChainMap.put("/lib","anon");
+        filterChainMap.put("/admin","anon");
         //释放游客浏览页面
         filterChainMap.put("/ordinary/**","anon");
         //登录授权
