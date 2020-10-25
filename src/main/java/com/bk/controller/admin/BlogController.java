@@ -73,7 +73,7 @@ public class BlogController {
      */
     @PostMapping("/blogs")
     public String blogs(@RequestParam("title") String title, String typeId,String recommend, HttpSession session){
-        BlogsForm blog = new BlogsForm(title,typeId==""? -1 : Integer.parseInt(typeId),recommend==""?false:true);
+        BlogsForm blog = new BlogsForm(title,typeId==""? -1 : Integer.parseInt(typeId),recommend==null?false:true);
 
         List<Blog> blogs = blogService.listBlog(blog);
 

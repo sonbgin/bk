@@ -31,11 +31,11 @@
                 <when test="title != null and title != ''">
                     and title like concat('%',#{title},'%')
                 </when>
-                <when test="typeId != null and typeId != ''">
+                <when test="typeId != -1 and typeId != ''">
                     and type_id=#{typeId}
                 </when>
-                <when test="recommend == true">
-                    and recommend=#{recommend}
+                <when test="true">
+                    or recommend=#{recommend}
                 </when>
             </choose>
         </where>
