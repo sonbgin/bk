@@ -24,8 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5830e450-8e95-457a-b9d0-1f41c57d7229" name="Default Changelist" comment="个人博客">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bk/controller/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bk/controller/admin/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bk/config/DruidDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bk/config/DruidDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bk/config/MyWebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bk/config/MyWebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bk/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bk/controller/PageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,17 +103,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BkApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BkApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bk" />
       <extension name="coverage">
@@ -181,7 +172,16 @@
       <workItem from="1603521273443" duration="741000" />
       <workItem from="1603529734645" duration="706000" />
       <workItem from="1603583626683" duration="3722000" />
-      <workItem from="1603609702046" duration="1696000" />
+      <workItem from="1603609702046" duration="2164000" />
+      <workItem from="1603681625482" duration="2762000" />
+      <workItem from="1603712556502" duration="3287000" />
+      <workItem from="1603718883030" duration="678000" />
+      <workItem from="1603726665630" duration="231000" />
+      <workItem from="1603761068391" duration="213000" />
+      <workItem from="1603761474303" duration="56000" />
+      <workItem from="1603761705855" duration="11769000" />
+      <workItem from="1605490930852" duration="1266000" />
+      <workItem from="1605784130080" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="博客">
       <created>1603382565021</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603528831501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="个人博客">
+      <created>1603611739095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603611739095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,54 +264,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="555" y="261" width="256" height="263" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1603382884566" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1603611575542">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1605784430552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603611575542" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1603611575541">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605784430552" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1605784430551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603611575541" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1603611575541">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605784430551" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1605784430551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603611575541" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1603611575542">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605784430551" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1605784430552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603611575542" />
-    <state width="1323" height="76" key="GridCell.Tab.1.bottom" timestamp="1603611394339">
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605784430552" />
+    <state width="1323" height="180" key="GridCell.Tab.1.bottom" timestamp="1605784430553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603611394339" />
-    <state width="1323" height="76" key="GridCell.Tab.1.center" timestamp="1603611394329">
+    <state width="1323" height="180" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605784430553" />
+    <state width="1323" height="180" key="GridCell.Tab.1.center" timestamp="1605784430552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603611394329" />
-    <state width="1323" height="76" key="GridCell.Tab.1.left" timestamp="1603611394329">
+    <state width="1323" height="180" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605784430552" />
+    <state width="1323" height="180" key="GridCell.Tab.1.left" timestamp="1605784430552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603611394329" />
-    <state width="1323" height="76" key="GridCell.Tab.1.right" timestamp="1603611394339">
+    <state width="1323" height="180" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605784430552" />
+    <state width="1323" height="180" key="GridCell.Tab.1.right" timestamp="1605784430552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603611394339" />
-    <state width="1323" height="76" key="GridCell.Tab.2.bottom" timestamp="1603611394341">
+    <state width="1323" height="180" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605784430552" />
+    <state width="1323" height="76" key="GridCell.Tab.2.bottom" timestamp="1603611905661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603611394341" />
-    <state width="1323" height="76" key="GridCell.Tab.2.center" timestamp="1603611394339">
+    <state width="1323" height="76" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603611905661" />
+    <state width="1323" height="76" key="GridCell.Tab.2.center" timestamp="1603611905661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1603611394339" />
-    <state width="1323" height="76" key="GridCell.Tab.2.left" timestamp="1603611394339">
+    <state width="1323" height="76" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1603611905661" />
+    <state width="1323" height="76" key="GridCell.Tab.2.left" timestamp="1603611905661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1603611394339" />
-    <state width="1323" height="76" key="GridCell.Tab.2.right" timestamp="1603611394341">
+    <state width="1323" height="76" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1603611905661" />
+    <state width="1323" height="76" key="GridCell.Tab.2.right" timestamp="1603611905661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1603611394341" />
+    <state width="1323" height="76" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1603611905661" />
     <state x="503" y="84" key="RollbackChangesDialog" timestamp="1603521980495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -317,10 +324,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1602578428663" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603611368440">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605784441420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603611368440" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605784441420" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1602731671261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -357,21 +364,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bk/controller/admin/BlogController.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bk/controller/admin/BlogController.java</url>
-          <line>119</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bk/controller/admin/BlogController.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/target/classes/templates/block/blog.html</url>
           <line>178</line>

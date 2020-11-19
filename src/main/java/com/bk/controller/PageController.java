@@ -39,7 +39,7 @@ public class PageController {
      * 跳转到主页面
      * @return
      */
-    @RequestMapping({"/toIndex","/"})
+    @RequestMapping("/toIndex")
     public String toIndex(@RequestParam(defaultValue = "1") int pageNum,
                           @RequestParam(defaultValue = "5") int pageSize, Model model){
         model.addAttribute("tags",tagService.listTag());

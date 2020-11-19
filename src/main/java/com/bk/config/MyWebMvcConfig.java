@@ -14,6 +14,8 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
     //添加视图处理
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/toIndex").setViewName("block/index");
+        registry.addViewController("/").setViewName("block/index");
     }
 
 }
